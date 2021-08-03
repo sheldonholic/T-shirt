@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Shirt Form</title>
+    <style>
+        label{
+            font-style: bold;
+        }
+    </style>
+</head>
+<body bgcolor="pink">
+    
+    <center>
+        <h1>Buy Your Customized T-Shirt !</h1><br>
+        <img src="https://cdn.shopify.com/s/files/1/1231/6442/products/L-TSHIRT-16464-19460-WHITE_1_394x.jpg?v=1605084376" width=200 height=250>
+        <form action="thanks.html">
+            <label> Name : </label>
+            <input type="text" required><br><br>
+            <label for="Tagline">Tagline : </label>
+            <input type="text" required><br>
+            <p>Choose shirt color:</p>
+            <input type="radio" id="red" name="color" value="red">
+            <label for="red">Red</label><br>
+            <input type="radio" id="green" name="color" value="green">
+            <label for="green">Green</label><br>
+            <input type="radio" id="blue" name="color" value="blue">
+            <label for="blue">Blue</label><br><br>
+            <label for="quantity">Quantity</label>
+            <select name="quantity" id="quantity" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select><br><br>
+            <label for="size">Choose shirt size:</label>
+            <select name="size" id="size" required>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select><br><br>
+            <label for="">Order date :</label>
+            <input type="date" name="date" id="" required><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset </button>
+        </form>
+    </center>
+</body>
+</html>
